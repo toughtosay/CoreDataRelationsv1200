@@ -34,6 +34,7 @@ struct PersistenceController {
         if context.hasChanges {
             try context.save()
         }
+    }
     // MARK: Vår funktion för delete. Den avslutar med att spara ändringarna.
         func delete(_ object: NSManagedObject) throws {
             let context = container.viewContext
@@ -43,4 +44,4 @@ struct PersistenceController {
         }
         
     }
-}
+

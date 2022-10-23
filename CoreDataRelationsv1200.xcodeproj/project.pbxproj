@@ -14,6 +14,8 @@
 		FA2C95BC290285C600660F8E /* CoreDataRelationsv1200.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA2C95BA290285C600660F8E /* CoreDataRelationsv1200.xcdatamodeld */; };
 		FA2C95BE2902889500660F8E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C95BD2902889500660F8E /* Persistence.swift */; };
 		FA2C95C02902902C00660F8E /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C95BF2902902C00660F8E /* AddCategoryView.swift */; };
+		FA5D586F29054BA200A3C043 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D586E29054BA200A3C043 /* AddItemView.swift */; };
+		FA5D587129059D5600A3C043 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D587029059D5600A3C043 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		FA2C95BB290285C600660F8E /* CoreDataRelationsv1200.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataRelationsv1200.xcdatamodel; sourceTree = "<group>"; };
 		FA2C95BD2902889500660F8E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FA2C95BF2902902C00660F8E /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		FA5D586E29054BA200A3C043 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		FA5D587029059D5600A3C043 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FA2C95AC2902855000660F8E /* CoreDataRelationsv1200App.swift */,
 				FA2C95AE2902855000660F8E /* ContentView.swift */,
 				FA2C95BF2902902C00660F8E /* AddCategoryView.swift */,
+				FA5D587029059D5600A3C043 /* CategoryView.swift */,
+				FA5D586E29054BA200A3C043 /* AddItemView.swift */,
 				FA2C95BA290285C600660F8E /* CoreDataRelationsv1200.xcdatamodeld */,
 				FA2C95BD2902889500660F8E /* Persistence.swift */,
 				FA2C95B02902855100660F8E /* Assets.xcassets */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2C95AF2902855000660F8E /* ContentView.swift in Sources */,
+				FA5D587129059D5600A3C043 /* CategoryView.swift in Sources */,
+				FA5D586F29054BA200A3C043 /* AddItemView.swift in Sources */,
 				FA2C95BE2902889500660F8E /* Persistence.swift in Sources */,
 				FA2C95BC290285C600660F8E /* CoreDataRelationsv1200.xcdatamodeld in Sources */,
 				FA2C95C02902902C00660F8E /* AddCategoryView.swift in Sources */,

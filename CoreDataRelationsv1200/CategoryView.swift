@@ -22,6 +22,7 @@ struct CategoryView: View {
             .onDelete(perform: delete(offsets:))
         }
         .navigationTitle(category.value ?? "")
+        
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 Button {
@@ -33,7 +34,7 @@ struct CategoryView: View {
                     AddItemView(category: category)
                 }
             }
-        }
+         } 
     }
     func delete(offsets: IndexSet) {
         withAnimation {

@@ -37,7 +37,7 @@ struct AddCategoryView: View {
     func save() {
         //MARK: Sparar i Entity Category tror jag. Får in viewContext från environment
         let category = Category(context: viewContext)
-        //MARK: Category får nu sitt värde och ska inehålla Textfieldtext
+        //MARK: Category får nu sitt värde och ska innehålla Textfieldtext
         category.value = textfieldtext
         do {
             try PersistenceController.shared.save()
@@ -48,6 +48,7 @@ struct AddCategoryView: View {
     }
        
 }
+
 
 struct AddCategoryView_Previews: PreviewProvider {
     static var previews: some View {

@@ -7,7 +7,7 @@
 
 import Foundation
 import CoreData
-import CloudKit
+
 
 // MARK: Vår manuellt uppsatta persistenscontroller. Sätter upp BasicFunktinerna som containers.
 struct PersistenceController {

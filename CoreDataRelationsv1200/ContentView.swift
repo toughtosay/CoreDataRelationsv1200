@@ -5,7 +5,7 @@
 //  Created by Andree Carlsson on 2022-10-21.
 //
 
-//MARK: Detta bör kunna klippas om och ge allt jag behöver. Persistence är ren och fin, även om vi inte använt menyalternativet så finns alla relationsparametrar (se item-CoreDataPropertiesfilen som jag pinnat). NSSet alternativet verkar fungera bra. Se så att du ställer in rätt med to many i den riktiga filen, album ska ha to many. Upplägget med flera Views som används här behövs inte. Kan vara MVC dock, fråga Bill. OM du återbesäker detta efter en tid, det är inte så rörigt eller svårt som det verkar. Persistens är alla inställningar för containers och vad du behöver. Sen använder du fetchrequests för att få fram datan och för funcs för att spara/delete. Fråga Bill hur det fungerar med vilka funktioner och variabler som kan hämtas i vilken vy. Ibland kan man ange den direkt i en vy och ibland måste man kalla på den ellr göra ny func. 
+//MARK: Detta bör kunna klippas om och ge allt jag behöver. Persistence är ren och fin, även om vi inte använt menyalternativet så finns alla relationsparametrar (se item-CoreDataPropertiesfilen som jag pinnat). NSSet alternativet verkar fungera bra. Se så att du ställer in rätt med to many i den riktiga filen, album ska ha to many. Upplägget med flera Views som används här behövs inte. Kan vara MVC dock, fråga Bill. OM du återbesäker detta efter en tid, det är inte så rörigt eller svårt som det verkar. Persistens är alla inställningar för containers och vad du behöver. Sen använder du fetchrequests för att få fram datan och för funcs för att spara/delete. 
     
 
 import SwiftUI
